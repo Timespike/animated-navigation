@@ -1,12 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=DM+Sans&family=Kaushan+Script&family=Montserrat&family=Oswald&family=Ubuntu&display=swap');
 
 :root {
   --primaryColor: #fff;
   --navColor1: #21292c;
-  --navColor2: #aa3e39;
-  --navColor3: #aa6e39;
-  --navColor4: #236267;
-  --navColor5: #2c8437;
+  --navColor2: #343477;
+  --navColor3: #aa4839;
+  --navColor4: #aa8e39;
+  --navColor5: #2a7e43;
 }
 
 html {
@@ -16,12 +16,21 @@ html {
 body {
   margin: 0;
   background: #000;
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
 
-
+/* Overlay */
+.overlay {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba 0, 0, 0, 0.7;
+}
 
 /* --- Menu Bars ------------------------------------ */
 
